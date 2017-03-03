@@ -1,0 +1,53 @@
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+choco install googlechrome -y
+choco install winrar -y
+choco install adobereader -y
+choco install 7zip -y
+-- choco install spotify -- failed install
+choco install firefox -y
+--choco install lastpass 
+choco install nodejs -y
+
+choco install cygwin -y
+choco install ruby -y
+choco install python -y
+choco install python2 -y
+choco install python3 -y
+choco install pip -y
+choco install procexp -y
+choco install skype
+choco install notepadplusplus -y
+choco install git -y
+refreshenv
+choco install gitkraken -y
+choco install vlc -y
+choco install ccleaner -y
+choco install putty -y
+choco install malwarebytes -y
+choco install virtualbox -y
+choco install wunderlist -y
+choco install slack -y
+choco install greenshot -y
+choco install inkscape -y
+choco install gimp -y
+choco install teamviewer -y
+choco install wireshark -y
+choco install puppet -y
+choco install octopustools -y
+choco install docker -y
+choco install winscp -y
+choco install fiddler4 -y
+choco install googledrive -y
+choco install dropbox -y
+choco install steam -y
+choco install sublimetext3 -y
+choco install winmerge -y
+choco install dotnet4.5 -y
+choco install visualstudio2015community -y
+choco install visualstudiocode -y
+choco install resharper -y
+choco install electron -y
+choco install proget -y
+ 
+
