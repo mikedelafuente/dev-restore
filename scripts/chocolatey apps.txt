@@ -4,12 +4,14 @@ choco install googlechrome -y
 choco install winrar -y
 choco install adobereader -y
 choco install 7zip -y
--- choco install spotify -- failed install
+-- choco install spotify -y -- failed install
 choco install firefox -y
---choco install lastpass 
+--choco install lastpass -y
+choco install evernote -y 
 choco install nodejs -y
-
+refreshenv
 choco install cygwin -y
+refreshenv
 choco install ruby -y
 choco install python -y
 choco install python2 -y
@@ -35,7 +37,8 @@ choco install teamviewer -y
 choco install wireshark -y
 choco install puppet -y
 choco install octopustools -y
-choco install docker -y
+--choco install docker -y
+choco install docker-for-windows -y
 choco install winscp -y
 choco install fiddler4 -y
 choco install googledrive -y
@@ -49,5 +52,4 @@ choco install visualstudiocode -y
 choco install resharper -y
 choco install electron -y
 choco install proget -y
- 
-
+--choco install sysinternals - y
