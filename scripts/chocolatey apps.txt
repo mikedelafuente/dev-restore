@@ -52,4 +52,10 @@ choco install visualstudiocode -y
 choco install resharper -y
 choco install electron -y
 choco install proget -y
+choco install github -y
 --choco install sysinternals - y
+choco install powershell -y
+choco install windowsazurepowershell -y
+
+npm install npm -g
+npm install -g @angular/cli
