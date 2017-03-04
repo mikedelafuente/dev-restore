@@ -1,0 +1,7 @@
+-- You need to setup SSH for GitHub in order for Git Clone to work: https://github.com/settings/keys
+-- https://help.github.com/articles/checking-for-existing-ssh-keys/
+-- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+-- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+-- Generate MY_PERSONAL_ACCESS_TOKEN here: https://github.com/settings/tokens/new
+---- You might only need repo access
+curl -H "Authorization: token MY_PERSONAL_ACCESS_TOKEN" -s https://api.github.com/user/repos\?affiliation=owner | grep ssh_url | cut -d '"' -f4 | xargs -i git clone {}
