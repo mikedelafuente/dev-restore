@@ -1,0 +1,7 @@
+-- Mirror files
+robocopy "D:\SRC" "E:\TARGET" /MIR /FFT /Z /XA:H /W:5
+
+
+robocopy "D:\Users\Mike\Pictures" "E:\backup\Pictures" /MIR /FFT /Z /XA:H /W:5
+
+robocopy "D:\Users\Mike\Family Videos" "E:\backup\Family Videos" /MIR /FFT /Z /XA:H /W:5
