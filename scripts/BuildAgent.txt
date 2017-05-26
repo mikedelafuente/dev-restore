@@ -1,0 +1,21 @@
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+choco install nodejs -y
+refreshenv
+choco install git -y
+refreshenv
+choco install
+choco install dotnet3.5 -y
+choco install dotnet4.6.2 -y
+choco install visualstudio2015Enterprise -y
+choco install npm -y
+
+npm install npm -g
+npm install -g @angular/cli
+
+choco install dotnetcore - y
+choco install powershell -y
+choco install pscx -y
+choco install poshgit -y
+choco install pester -y
+choco install windowsazurepowershell -y
